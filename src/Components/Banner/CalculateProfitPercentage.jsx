@@ -9,4 +9,3 @@ const CalculateProfitPercentage = (initialPrice, currentPrice) => {
 };
 
 export default CalculateProfitPercentage;
-// module.exports = CalculateProfitPercentage;

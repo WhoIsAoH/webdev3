@@ -21,5 +21,3 @@ axiosInstance.interceptors.response.use(
 )
 
 export default axiosInstance
-
-// https://rapidapi.com/Coinranking/api/coinranking1/

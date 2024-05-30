@@ -217,9 +217,9 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     columnGap: "2rem",
     justifyContent: "center",
-    alignItems: "center", // Default display block
+    alignItems: "center",
     [theme.breakpoints.up("sm")]: {
-      display: "flex", // Change to flex on screens larger than or equal to small size
+      display: "flex",
       alignItems: "center",
       columnGap: "1rem",
       justifyContent: "center",

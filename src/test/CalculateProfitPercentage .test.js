@@ -13,7 +13,7 @@ describe('calculateProfitPercentage', () => {
   test('should return correct profit percentage when current price is lower than initial price', () => {
     const initialPrice = 200;
     const currentPrice = 150;
-    const expectedProfitPercentage = '-25.00'; // (150 - 200) / 200 * 100 = -25%
+    const expectedProfitPercentage = '-25.00';
 
     expect(CalculateProfitPercentage(initialPrice, currentPrice)).toBe(expectedProfitPercentage);
   });
@@ -37,7 +37,7 @@ describe('calculateProfitPercentage', () => {
   test('should handle very small profit correctly', () => {
     const initialPrice = 1000;
     const currentPrice = 1000.1;
-    const expectedProfitPercentage = '0.01'; // (1000.1 - 1000) / 1000 * 100 = 0.01%
+    const expectedProfitPercentage = '0.01';
 
     expect(CalculateProfitPercentage(initialPrice, currentPrice)).toBe(expectedProfitPercentage);
   });
